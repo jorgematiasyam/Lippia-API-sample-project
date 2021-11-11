@@ -1,0 +1,14 @@
+{
+  "url": "https://api.clockify.me/api/v1",
+  "headers": {
+    "X-Api-Key": "{{api-key}}",
+    "Content-Type": "application/json"
+  },
+  "body": {
+  "start": "2018-06-12T14:00:37Z",
+  "billable": "true",
+  "description": "Writing documentation updated",
+  "end": "2018-06-12T14:01:41Z"
+  },
+  "endpoint": "/workspaces/{{workspaceId}}/time-entries/{{id}}"
+}

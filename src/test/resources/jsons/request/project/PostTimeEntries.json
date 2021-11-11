@@ -1,0 +1,14 @@
+{
+  "url": "https://api.clockify.me/api/v1",
+  "headers": {
+    "X-Api-Key": "{{api-key}}",
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "start": "2021-09-11T14:28:14.000Z",
+    "billable": "true",
+    "description": "Actualizar horas",
+    "end": "2021-09-11T17:38:24.000Z"
+  },
+    "endpoint": "/workspaces/{{workspaceId}}/time-entries"
+}

@@ -52,7 +52,13 @@ public enum EntityConfiguration {
         public Class<?> getEntityService() {
             return ProjectErrorService.class;
         }
-    };
+    },
+    TIMEENTRY {
+        @Override
+        public Class<?> getEntityService() {
+            return ProjectTimeEntry.class;
+        }
+        };
 
     public abstract Class<?> getEntityService();
 }
